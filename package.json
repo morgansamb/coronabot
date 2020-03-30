@@ -1,0 +1,20 @@
+{
+  "name": "coronabot",
+  "version": "1.0.0",
+  "description": "Discord bot giving statistics about COVID-19 world cases",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Morgan SAMBARDIER",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
